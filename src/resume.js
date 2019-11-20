@@ -1,14 +1,16 @@
 import React from 'react'
 
+const email = 'rkechols21@gmail.com'
+
 // JSX is supported in most places in this template in place of strings
 const resume = {
   header: {
     name: '{first and last name}',
     links: [
       {
-        href: 'mailto:{email address}',
+        href: `mailto:${email}`,
         icon: 'far fa-envelope',
-        text: '{email address}',
+        text: email,
       },
       {
         href: 'https://github.com/{github username}',
