@@ -6,7 +6,7 @@ const gitHubUsername = 'rkechols'
 const linkedInURL = 'ryan-echols-750'
 const bitbucketUsername = 'echols14'
 const majorAndMinors = 'BA in Linguistics, minors in Computer Science and Mathematics'
-const gpa = '3.66'
+const gpa = '3.69'
 const currentYear = 2020
 const startedProgrammingYear = 2013
 
@@ -38,7 +38,7 @@ const resume = {
     ],
   },
   summary: [
-    'Seeking summer internship in machine learning or computational linguistics starting May 2020',
+    //'Seeking summer internship in machine learning or computational linguistics starting May 2020',
     `Graduating December 2021 with a ${majorAndMinors}`,
     `${currentYear - startedProgrammingYear} years of programming experience`,
     'Computer Programmer at BYU Office of Digital Humanities',
@@ -68,7 +68,7 @@ const resume = {
             `Current GPA: ${gpa}`,
             'Completed Coursework: Structure in Language, Sounds in Language, Intro to Computational Theory, \
 			Principles of Statistics, Advanced Programming Concepts, Algorithm Design and Optimization, Discrete Structure, Linear Algebra, Calculus',
-            'Extracurricular : Association for Computing Machinery, BYU Student Association, Celtic Folk Ensemble, Country Dance Club'
+            'Extracurricular: Association for Computing Machinery, BYU Student Association, Celtic Folk Ensemble, Country Dance Club'
           ]
         }
       ]
