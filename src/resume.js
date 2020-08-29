@@ -41,7 +41,7 @@ const resume = {
     //'Seeking summer internship in machine learning or computational linguistics starting May 2020',
     `Graduating December 2021 with a ${majorAndMinors}`,
     `${currentYear - startedProgrammingYear} years of programming experience`,
-    'Computer Programmer at BYU Office of Digital Humanities',
+    'Research Assistant and Teaching Assistant in the BYU Computer Science department',
   ],
   sections: [
 	{
@@ -49,7 +49,7 @@ const resume = {
       subsections: [
         {
           details: [
-			'Computer Science: Java, C++, Python, Kotlin, Android, Git, command-line',
+			'Computer Science: Java, Python, C++, Kotlin, Android, Git, command-line',
             'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
 			'Novice Foreign Languages: Spanish, German, Russian',
 			'Advanced Mathematics: Linear Algebra, Mutlivariable Calculus, Ordinary Differential Equations'
@@ -68,7 +68,7 @@ const resume = {
             `Current GPA: ${gpa}`,
             'Completed Coursework: Structure in Language, Sounds in Language, Intro to Computational Theory, \
 			Principles of Statistics, Advanced Programming Concepts, Algorithm Design and Optimization, Discrete Structure, Linear Algebra, Calculus',
-            'Extracurricular: Association for Computing Machinery, BYU Student Association, Celtic Folk Ensemble, Country Dance Club'
+            'Extracurricular: BYU Competitive Programming team, Association for Computing Machinery, BYU Student Association, Celtic Folk Ensemble, Country Dance Club'
           ]
         }
       ]
@@ -77,31 +77,42 @@ const resume = {
       title: 'Experience',
       subsections: [
 		{
-          title: 'NLP Computer Programmer',
-          subtitle: 'BYU Office of Digital Humanities - March 2019 to present',
+          title: 'Research Assistant - Computer Vision',
+          subtitle: 'BYU Department of Computer Science - May 2020 to present',
           details: [
-            'Implement models to analyze and categorize Russian text',
-            'Maintain functioning multi-branch Git repository with multiple developers',
+			'Construct, train, and utilize deep neural networks using PyTorch for various tasks in Computer Vision',
+            'Investigate and develop algorithms for Computational Jigsaw Puzzle Solving using Python',
+			'Maintained functioning multi-branch Git repositories with multiple developers',
           ]
         },
 		{
-          title: 'Teaching Assistant',
+          title: 'Teaching Assistant and Head Teaching Assistant',
           subtitle: 'BYU Department of Computer Science - September 2015 to present',
           details: [
             'Instruct 300+ students each semester in principles of coding and computation',
             'Guide students to good coding practices and develop debugging skills',
+			'Train 10 to 15 other teaching assistants how to effectively help students',
+			'Create procedures to ensure privacy and consistency in interactions between students and teaching assistants',
+          ]
+        },
+		{
+          title: 'NLP Computer Programmer',
+          subtitle: 'BYU Office of Digital Humanities - March 2019 to August 2020',
+          details: [
+            'Implemented models to analyze and categorize Russian text using Java',
+			'Developed systems for large-scale linguistic analyses of historical documents using Python',
           ]
         },
         {
           title: 'Android Development Intern',
 		  subtitle: <a href="https://factory.hr/" target="_blank" rel="noopener noreferrer">{'Plava tvornica ("Blue Factory") - Osijek, Croatia - May 2019 to July 2019'}</a>,
           details: [
-            'Created 5 functioning mobile applications for Android while self-directed',
+            'Created 5 functioning mobile applications for Android while self-directed, using both Java and Kotlin',
             'Adapted mobile applications to be displayed in 3+ languages each',
           ]
         },
 		{
-          title: 'Research Assistant',
+          title: 'Research Assistant - Mathematics',
           subtitle: 'BYU Department of Mathematics - February 2015 to April 2016',
           details: [
             'Converted mathematical algorithms from theory to Python code',
@@ -124,7 +135,8 @@ const resume = {
 		{
           title: 'Language Imitator',
           details: [
-            'Designed and implemented a language imitator based on character transitions, using Markov Chains',
+            'Designed and implemented a language imitator based on character transitions, using Markov Chains in Java',
+			'Collected plain-text corpora of various languages for use by the imitator',
           ]
         }
       ]
