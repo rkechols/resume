@@ -90,7 +90,7 @@ const resume = {
           subtitle: 'BYU Department of Computer Science - September 2015 to present',
           details: [
             'Instruct 300+ students each semester in principles of coding and computation',
-            'Guide students to good coding practices and develop debugging skills',
+            'Guide students to devlop good coding practices and debugging skills',
 			'Train 10 to 15 other teaching assistants how to effectively help students',
 			'Create procedures to ensure privacy and consistency in interactions between students and teaching assistants',
           ]
