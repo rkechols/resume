@@ -6,8 +6,8 @@ const gitHubUsername = 'rkechols'
 const linkedInURL = 'ryan-echols-750'
 const bitbucketUsername = 'echols14'
 const majorAndMinors = 'BA in Linguistics, minors in Computer Science and Mathematics'
-const gpa = '3.69'
-const currentYear = 2020
+const gpa = '3.7'
+const currentYear = 2021
 const startedProgrammingYear = 2013
 
 // JSX is supported in most places in this template in place of strings
@@ -49,10 +49,10 @@ const resume = {
       subsections: [
         {
           details: [
-			'Computer Science: Java, Python, C++, Kotlin, Android, Git, command-line',
+			'Computer Science: Java, Python, C++, Deep Learning (PyTorch), Kotlin, Android, Git, command-line, Firebase, SQL',
             'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
 			'Novice Foreign Languages: Spanish, German, Russian',
-			'Advanced Mathematics: Linear Algebra, Mutlivariable Calculus, Ordinary Differential Equations'
+			'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations'
           ]
         }
       ]
@@ -66,8 +66,7 @@ const resume = {
           details: [
             majorAndMinors,
             `Current GPA: ${gpa}`,
-            'Completed Coursework: Structure in Language, Sounds in Language, Intro to Computational Theory, \
-			Principles of Statistics, Advanced Programming Concepts, Algorithm Design and Optimization, Discrete Structure, Linear Algebra, Calculus',
+            'Completed Coursework: Deep Learning, Intro to Computational Theory, Advanced Programming Concepts, Algorithm Design and Optimization, Data Structures, Morphology, Syntax, Semantics, Phonetics and Phonology, Principles of Statistics, Ordinary Differential Equations, Linear Algebra, Calculus',
             'Extracurricular: BYU Competitive Programming team, Association for Computing Machinery, BYU Student Association, Celtic Folk Ensemble, Country Dance Club'
           ]
         }
@@ -82,17 +81,25 @@ const resume = {
           details: [
 			'Construct, train, and utilize deep neural networks using PyTorch for various tasks in Computer Vision',
             'Investigate and develop algorithms for Computational Jigsaw Puzzle Solving using Python',
-			'Maintained functioning multi-branch Git repositories with multiple developers',
+			'Maintain functioning multi-branch Git repositories with multiple developers',
           ]
         },
 		{
-          title: 'Teaching Assistant and Head Teaching Assistant',
+          title: 'Teaching Assistant - Advanced Deep Learning, Discrete Structure, Data Structures, Intro to Computer Programming',
           subtitle: 'BYU Department of Computer Science - September 2015 to present',
           details: [
-            'Instruct 300+ students each semester in principles of coding and computation',
-            'Guide students to devlop good coding practices and debugging skills',
-			'Train 10 to 15 other teaching assistants how to effectively help students',
-			'Create procedures to ensure privacy and consistency in interactions between students and teaching assistants',
+            'Teach principles of coding and computation to students of various skill levels',
+            'Guide students to develop good coding practices and debugging skills'
+          ]
+        },
+		{
+          title: 'Head Teaching Assistant - Discrete Structure',
+          subtitle: 'BYU Department of Computer Science - May 2020 to December 2020',
+          details: [
+			'Trained 10 to 15 other teaching assistants how to effectively help students whether in-person or through digital communication',
+			'Developed procedures to ensure privacy and consistency in interactions between students and teaching assistants',
+			'Created an automated interface for students to submit coding projects, allowing 100+ teaching assistant work hours each pay period of rote tasks to be reallocated to helping students',
+			'Coordinated grading for 300+ students\' exams and homework assignments'
           ]
         },
 		{
@@ -124,19 +131,27 @@ const resume = {
 	{
       title: 'Projects',
       subsections: [
-        {
-          title: 'Neural Network Java Library',
+		{
+          title: <a href="https://github.com/rkechols/sequence-nn" target="_blank" rel="noopener noreferrer">{'\'Sequence\' Agent'}</a>,
           details: [
-            'Created a generic Java library for simple Neural Networks, all from the ground up',
+            'Used deep reinforcement learning (DRL) to train an agent to play the game \'Sequence\'',
+			'Created custom DNN topologies and one-hot encoding schemes for better performance',
+			'Implemented proximal policy optimization (PPO) and multi-headed self-attention in PyTorch'
+          ]
+        },
+        {
+          title: <a href="https://bitbucket.org/echols14/neural-network/src/master/" target="_blank" rel="noopener noreferrer">{'Neural Network Java Library'}</a>,
+          details: [
+            'Created a generic Java library for simple Neural Networks, from the ground up',
 			'Incorporated stochastic gradient descent and multi-threading for efficiency',
 			'Tested the library on the MNIST dataset, achieving 94.5% accuracy before deliberate adjustment'
           ]
         },
 		{
-          title: 'Language Imitator',
+          title: <a href="https://bitbucket.org/echols14/language-imitator/src/master/" target="_blank" rel="noopener noreferrer">{'Language Imitator'}</a>,
           details: [
-            'Designed and implemented a language imitator based on character transitions, using Markov Chains in Java',
-			'Collected plain-text corpora of various languages for use by the imitator',
+            'Designed and implemented a \'language imitator\' based on character transitions, using Markov Chains',
+			'Collected plain-text unstructured corpora of various languages for use by the imitator',
           ]
         }
       ]
@@ -145,6 +160,14 @@ const resume = {
       title: 'Service',
       subsections: [
         {
+          title: 'Tutor - Mathematics and Computer Science',
+		  subtitle: 'Freelance - August 2018 to present',
+          details: [
+            'Give 1-3 hours per week helping students that need more focused, personalized instruction',
+			'Teach a range of topics including statistics, calculus, Android development, data structures, algorithms'
+          ]
+        },
+		{
           title: 'Full-time Volunteer',
           subtitle: 'The Church of Jesus Christ of Latter-day Saints in Serbia, Slovenia, Bosnia & Herzegovina - August 2016 to August 2018',
           details: [
@@ -152,7 +175,7 @@ const resume = {
 			'Supervised 3 of the church’s official Facebook pages',
 			'Written and spoken translation and interpretation in Serbian, Bosnian, Croatian, and Slovene'
           ]
-        },
+        }
       ]
     }
   ]
