@@ -103,7 +103,7 @@ const resume = {
           ]
         },
 		{
-          title: 'NLP Computer Programmer',
+          title: 'Computer Programmer - Natural Language Processing (NLP)',
           subtitle: 'BYU Office of Digital Humanities - March 2019 to August 2020',
           details: [
             'Implemented models to analyze and categorize Russian text using Java',
@@ -135,7 +135,7 @@ const resume = {
           title: <a href="https://github.com/rkechols/sequence-nn" target="_blank" rel="noopener noreferrer">{'\'Sequence\' Agent'}</a>,
           details: [
             'Used deep reinforcement learning (DRL) to train an agent to play the game \'Sequence\'',
-			'Created custom DNN topologies and one-hot encoding schemes for better performance',
+			'Created custom deep neural network (DNN) topologies and one-hot encoding schemes for better performance',
 			'Implemented proximal policy optimization (PPO) and multi-headed self-attention in PyTorch'
           ]
         },
@@ -163,7 +163,7 @@ const resume = {
           title: 'Tutor - Mathematics and Computer Science',
 		  subtitle: 'Freelance - August 2018 to present',
           details: [
-            'Give 1-3 hours per week helping students that need more focused, personalized instruction',
+            'Give 1-3 hours per week helping fellow students that need more focused, personalized instruction',
 			'Teach a range of topics including statistics, calculus, Android development, data structures, algorithms'
           ]
         },
