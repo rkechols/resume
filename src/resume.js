@@ -49,7 +49,7 @@ const resume = {
       subsections: [
         {
           details: [
-			'Computer Science: Java, Python, C++, Deep Learning (PyTorch), Kotlin, Android, Git, command-line, Firebase, SQL',
+			'Computer Science: Java, Python, C++, Deep Learning (PyTorch), Kotlin, Android, Git, Command-line, Firebase, SQL',
             'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
 			'Novice Foreign Languages: Spanish, German, Russian',
 			'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations'
