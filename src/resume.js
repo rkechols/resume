@@ -6,7 +6,7 @@ const gitHubUsername = 'rkechols'
 const linkedInURL = 'ryan-echols-750'
 const bitbucketUsername = 'echols14'
 const majorAndMinors = 'BA in Linguistics, minors in Computer Science and Mathematics'
-const gpa = '3.7'
+const gpa = '3.72'
 const currentYear = 2021
 const startedProgrammingYear = 2013
 
@@ -49,7 +49,7 @@ const resume = {
       subsections: [
         {
           details: [
-			'Computer Science: Java, Python, C++, Deep Learning (PyTorch), Kotlin, Android, Git, Command-line, Firebase, SQL',
+			'Computer Science: Python, Java, C++, Deep Learning (PyTorch), Kotlin, Android, Git, Command-line, Firebase, SQL',
             'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
 			'Novice Foreign Languages: Spanish, German, Russian',
 			'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations'
@@ -66,7 +66,7 @@ const resume = {
           details: [
             majorAndMinors,
             `Current GPA: ${gpa}`,
-            'Completed Coursework: Deep Learning, Intro to Computational Theory, Advanced Programming Concepts, Algorithm Design and Optimization, Data Structures, Morphology, Syntax, Semantics, Phonetics and Phonology, Principles of Statistics, Ordinary Differential Equations, Linear Algebra, Calculus',
+            'Completed Coursework: Deep Learning, NLP for low-resource languages, Intro to Computational Theory, Advanced Programming Concepts, Algorithm Design and Optimization, Data Structures, Morphology, Syntax, Semantics, Phonetics and Phonology, Historical Linguistics, Principles of Statistics, Ordinary Differential Equations, Linear Algebra, Calculus',
             'Extracurricular: BYU Competitive Programming team, Association for Computing Machinery, BYU Student Association, Celtic Folk Ensemble, Country Dance Club'
           ]
         }
@@ -77,19 +77,19 @@ const resume = {
       subsections: [
 		{
           title: 'Research Assistant - Computer Vision',
-          subtitle: 'BYU Department of Computer Science - May 2020 to present',
+          subtitle: 'BYU Department of Computer Science - May 2020 to April 2021',
           details: [
-			'Construct, train, and utilize deep neural networks using PyTorch for various tasks in Computer Vision',
-            'Investigate and develop algorithms for Computational Jigsaw Puzzle Solving using Python',
-			'Maintain functioning multi-branch Git repositories with multiple developers',
+			'Constructed, trained, and utilized deep neural networks using PyTorch for various tasks in Computer Vision',
+            'Investigated and developed algorithms for Computational Jigsaw Puzzle Solving using Python',
+			'Maintained functioning multi-branch Git repositories with multiple developers',
           ]
         },
 		{
           title: 'Teaching Assistant - Advanced Deep Learning, Discrete Structure, Data Structures, Intro to Computer Programming',
-          subtitle: 'BYU Department of Computer Science - September 2015 to present',
+          subtitle: 'BYU Department of Computer Science - September 2015 to April 2021',
           details: [
-            'Teach principles of coding and computation to students of various skill levels',
-            'Guide students to develop good coding practices and debugging skills'
+            'Taught principles of coding and computation to students of various skill levels',
+            'Guided students to develop good coding practices and debugging skills'
           ]
         },
 		{
@@ -140,7 +140,7 @@ const resume = {
           ]
         },
         {
-          title: <a href="https://bitbucket.org/echols14/neural-network/src/master/" target="_blank" rel="noopener noreferrer">{'Neural Network Java Library'}</a>,
+          title: <a href="https://bitbucket.org/echols14/neural-network/src/master/" target="_blank" rel="noopener noreferrer">{'\'From-scratch\' Neural Network Java Library'}</a>,
           details: [
             'Created a generic Java library for simple Neural Networks, from the ground up',
 			'Incorporated stochastic gradient descent and multi-threading for efficiency',
