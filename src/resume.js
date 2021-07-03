@@ -76,6 +76,16 @@ const resume = {
       title: 'Experience',
       subsections: [
 		{
+          title: 'Data Science Intern - Natural Language Processing',
+          subtitle: 'Codazen - May 2021 to present',
+          details: [
+			'Research, summarize, and report on data-based solutions to unsolved problems',
+            'Design, implement, and train custom deep learning models using PyTorch',
+			'Plan and create problem-specific NLP solutions using Python',
+			'Maintain functioning multi-branch Git repositories with multiple developers',
+          ]
+        },
+		{
           title: 'Research Assistant - Computer Vision',
           subtitle: 'BYU Department of Computer Science - May 2020 to April 2021',
           details: [
