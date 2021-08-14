@@ -38,10 +38,9 @@ const resume = {
     ],
   },
   summary: [
-    //'Seeking summer internship in machine learning or computational linguistics starting May 2020',
     `Graduating December 2021 with a ${majorAndMinors}`,
     `${currentYear - startedProgrammingYear} years of programming experience`,
-    'Research Assistant and Teaching Assistant in the BYU Computer Science department',
+    'Linguistics and Computer Science Teaching Assistant at BYU',
   ],
   sections: [
 	{
@@ -49,7 +48,7 @@ const resume = {
       subsections: [
         {
           details: [
-			'Computer Science: Python, Java, C++, Deep Learning (PyTorch), Kotlin, Android, Git, Command-line, Firebase, SQL',
+			'Computer Science: Python, Java, C++, PyTorch, SQL, Docker, AWS, Kotlin, Android, Git, Command-line, Firebase',
             'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
 			'Novice Foreign Languages: Spanish, German, Russian',
 			'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations'
@@ -77,12 +76,12 @@ const resume = {
       subsections: [
 		{
           title: 'Data Science Intern - Natural Language Processing',
-          subtitle: 'Codazen - May 2021 to present',
+          subtitle: 'Codazen - May 2021 to August 2021',
           details: [
-			'Research, summarize, and report on data-based solutions to unsolved problems',
-            'Design, implement, and train custom deep learning models using PyTorch',
-			'Plan and create problem-specific NLP solutions using Python',
-			'Maintain functioning multi-branch Git repositories with multiple developers',
+			'Researched, summarized, and reported on data-based solutions to unsolved problems',
+            'Designed, implemented, and trained custom deep learning models using PyTorch',
+			'Maintained functioning multi-branch Git repositories with multiple developers',
+			'Deployed APIs and web apps using Dash, Flask, Docker, and AWS Elastic Beanstalk',
           ]
         },
 		{
