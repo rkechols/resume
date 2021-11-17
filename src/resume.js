@@ -40,7 +40,7 @@ const resume = {
   summary: [
     `Graduating December 2021 with a ${majorAndMinors}`,
     `${currentYear - startedProgrammingYear} years of programming experience`,
-	'Data Scientist specializing in NLP and Deep Learning',
+	'Data Scientist specializing in Natural Language Processing (NLP) and Deep Learning',
     'Linguistics and Computer Science Teaching Assistant at BYU',
   ],
   sections: [
