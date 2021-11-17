@@ -7,7 +7,7 @@ const linkedInURL = 'ryan-echols-750'
 const bitbucketUsername = 'echols14'
 const majorAndMinors = 'BA in Linguistics, minors in Computer Science and Mathematics'
 const gpa = '3.72'
-const currentYear = 2021
+const currentYear = 2022
 const startedProgrammingYear = 2013
 
 // JSX is supported in most places in this template in place of strings
@@ -40,6 +40,7 @@ const resume = {
   summary: [
     `Graduating December 2021 with a ${majorAndMinors}`,
     `${currentYear - startedProgrammingYear} years of programming experience`,
+	'Data Scientist specializing in NLP and Deep Learning',
     'Linguistics and Computer Science Teaching Assistant at BYU',
   ],
   sections: [
@@ -48,10 +49,10 @@ const resume = {
       subsections: [
         {
           details: [
-			'Computer Science: Python, Java, C++, PyTorch, SQL, Docker, AWS, Kotlin, Android, Git, Command-line, Firebase',
+			'Computer Science: Python, Java, C++, Git, Command-line, PyTorch, SQL, Docker, AWS, Kotlin, Android, Firebase',
             'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
 			'Novice Foreign Languages: Spanish, German, Russian',
-			'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations'
+			'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations, Statistics'
           ]
         }
       ]
@@ -65,7 +66,7 @@ const resume = {
           details: [
             majorAndMinors,
             `Current GPA: ${gpa}`,
-            'Completed Coursework: Deep Learning, NLP for low-resource languages, Intro to Computational Theory, Advanced Programming Concepts, Algorithm Design and Optimization, Data Structures, Morphology, Syntax, Semantics, Phonetics and Phonology, Historical Linguistics, Principles of Statistics, Ordinary Differential Equations, Linear Algebra, Calculus',
+            'Completed Coursework: Deep Learning, NLP, NLP for low-resource languages, Intro to Computational Theory, Advanced Programming Concepts, Algorithm Design and Optimization, Data Structures, Morphology, Syntax, Semantics, Phonetics and Phonology, Historical Linguistics, Principles of Statistics, Ordinary Differential Equations, Linear Algebra, Calculus',
             'Extracurricular: BYU Competitive Programming team, Association for Computing Machinery, BYU Student Association, Celtic Folk Ensemble, Country Dance Club'
           ]
         }
@@ -74,14 +75,21 @@ const resume = {
     {
       title: 'Experience',
       subsections: [
+	    {
+          title: 'Data Science Intern',
+          subtitle: 'Aktify - September 2021 to present',
+          details: [
+			'Research and test accuracy of models for entity recognition (NER/DER)',
+			'Ensure selected solutions are feasible considering model size, quantity of training data needed, etc.'
+          ]
+        },
 		{
-          title: 'Data Science Intern - Natural Language Processing',
+          title: 'Data Science Intern',
           subtitle: 'Codazen - May 2021 to August 2021',
           details: [
 			'Researched, summarized, and reported on data-based solutions to unsolved problems',
             'Designed, implemented, and trained custom deep learning models using PyTorch',
-			'Maintained functioning multi-branch Git repositories with multiple developers',
-			'Deployed APIs and web apps using Dash, Flask, Docker, and AWS Elastic Beanstalk',
+			'Deployed APIs and web apps using Dash, Flask, Docker, and AWS',
           ]
         },
 		{
@@ -90,7 +98,6 @@ const resume = {
           details: [
 			'Constructed, trained, and utilized deep neural networks using PyTorch for various tasks in Computer Vision',
             'Investigated and developed algorithms for Computational Jigsaw Puzzle Solving using Python',
-			'Maintained functioning multi-branch Git repositories with multiple developers',
           ]
         },
 		{
@@ -141,6 +148,14 @@ const resume = {
       title: 'Projects',
       subsections: [
 		{
+		  title: <a href="https://github.com/rkechols/post-OCR-corrector" target="_blank" rel="noopener noreferrer">{'Serbian Text Corrector'}</a>,
+		  details: [
+			'Trained a character-level transformer architecture to correct mistakes in Serbian text',
+			'Generated custom training data from an existing Serbian corpus',
+			'Currently in-progress',
+		  ]
+		},
+		{
           title: <a href="https://github.com/rkechols/sequence-nn" target="_blank" rel="noopener noreferrer">{'\'Sequence\' Agent'}</a>,
           details: [
             'Used deep reinforcement learning (DRL) to train an agent to play the game \'Sequence\'',
@@ -151,16 +166,16 @@ const resume = {
         {
           title: <a href="https://bitbucket.org/echols14/neural-network/src/master/" target="_blank" rel="noopener noreferrer">{'\'From-scratch\' Neural Network Java Library'}</a>,
           details: [
-            'Created a generic Java library for simple Neural Networks, from the ground up',
-			'Incorporated stochastic gradient descent and multi-threading for efficiency',
+            'Created a generic Java library for simple feed-forward Neural Networks, from the ground up',
+			'Researched mathematics behind back-propogation and re-implemented from scratch',
 			'Tested the library on the MNIST dataset, achieving 94.5% accuracy before deliberate adjustment'
           ]
         },
 		{
           title: <a href="https://bitbucket.org/echols14/language-imitator/src/master/" target="_blank" rel="noopener noreferrer">{'Language Imitator'}</a>,
           details: [
-            'Designed and implemented a \'language imitator\' based on character transitions, using Markov Chains',
-			'Collected plain-text unstructured corpora of various languages for use by the imitator',
+            'Designed and implemented a generative language model (\'language imitator\') based on character-level n-grams',
+			'Collected plain-text unstructured training corpora of various languages',
           ]
         }
       ]
