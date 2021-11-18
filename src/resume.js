@@ -167,7 +167,7 @@ const resume = {
           title: <a href="https://bitbucket.org/echols14/neural-network/src/master/" target="_blank" rel="noopener noreferrer">{'\'From-scratch\' Neural Network Java Library'}</a>,
           details: [
             'Created a generic Java library for simple feed-forward Neural Networks, from the ground up',
-			'Researched mathematics behind back-propogation and re-implemented from scratch',
+			'Researched mathematics behind back-propagation and re-implemented from scratch',
 			'Tested the library on the MNIST dataset, achieving 94.5% accuracy before deliberate adjustment'
           ]
         },
