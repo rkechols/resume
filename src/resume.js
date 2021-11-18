@@ -192,6 +192,15 @@ const resume = {
           ]
         },
 		{
+          title: 'Peer Mentor for New Students',
+		  subtitle: 'BYU Foundations Conference and New Student Orientation - September 2015, 2019, 2020, 2021',
+          details: [
+            'Supervised 10-15 new students during a three-day conference',
+			'Answered questions and inspired students to be excited about their university experience',
+			'Guided campus tours, organized group communication, and led group activities for 30-40 new students'
+          ]
+        },
+		{
           title: 'Full-time Volunteer',
           subtitle: 'The Church of Jesus Christ of Latter-day Saints in Serbia, Slovenia, Bosnia & Herzegovina - August 2016 to August 2018',
           details: [
