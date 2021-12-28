@@ -38,7 +38,7 @@ const resume = {
     ],
   },
   summary: [
-    `Graduating December 2021 with a ${majorAndMinors}`,
+    `Graduated December 2021 with a ${majorAndMinors}`,
     `${currentYear - startedProgrammingYear} years of programming experience`,
 	'Data Scientist specializing in Natural Language Processing (NLP) and Deep Learning',
     'Linguistics and Computer Science Teaching Assistant at BYU',
@@ -62,7 +62,7 @@ const resume = {
       subsections: [
         {
           title: 'Brigham Young University',
-          subtitle: 'Senior - Graduated December 2021',
+          subtitle: 'Graduated December 2021',
           details: [
             majorAndMinors,
             `Current GPA: ${gpa}`,
