@@ -6,7 +6,7 @@ const gitHubUsername = 'rkechols'
 const linkedInURL = 'ryan-echols-750'
 const bitbucketUsername = 'echols14'
 const majorAndMinors = 'BA in Linguistics, minors in Computer Science and Mathematics'
-const gpa = '3.72'
+const gpa = '3.73'
 const currentYear = 2022
 const startedProgrammingYear = 2013
 
@@ -62,7 +62,7 @@ const resume = {
       subsections: [
         {
           title: 'Brigham Young University',
-          subtitle: 'Senior - Expected Graduation Date: December 2021',
+          subtitle: 'Senior - Graduated December 2021',
           details: [
             majorAndMinors,
             `Current GPA: ${gpa}`,
@@ -76,7 +76,7 @@ const resume = {
       title: 'Experience',
       subsections: [
 	    {
-          title: 'Data Science Intern',
+          title: 'Data Scientist',
           subtitle: 'Aktify - September 2021 to present',
           details: [
 			'Research and test accuracy of models for entity recognition (NER/DER)',
@@ -151,8 +151,7 @@ const resume = {
 		  title: <a href="https://github.com/rkechols/post-OCR-corrector" target="_blank" rel="noopener noreferrer">{'Serbian Text Corrector'}</a>,
 		  details: [
 			'Trained a character-level transformer architecture to correct mistakes in Serbian text',
-			'Generated custom training data from an existing Serbian corpus',
-			'Currently in-progress',
+			'Generated custom training data from an existing Serbian corpus'
 		  ]
 		},
 		{
