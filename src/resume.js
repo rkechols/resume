@@ -1,6 +1,6 @@
 import React from 'react'
 
-const email = 'rkechols21@gmail.com'
+const email = 'ryan@shadylakemedia.com'
 const fullName = 'Ryan Echols'
 const gitHubUsername = 'rkechols'
 const linkedInURL = 'ryan-echols-750'
@@ -78,8 +78,9 @@ const resume = {
           title: 'Data Scientist',
           subtitle: 'Aktify - September 2021 to present',
           details: [
-			'Research and test accuracy of models for entity recognition (NER/DER)',
-			'Ensure selected solutions are feasible considering model size, quantity of training data needed, etc.'
+			'Research and test accuracy of various machine learning models',
+			'Ensure selected solutions are feasible considering model size, quantity of training data needed, etc.',
+			'Establish pipelines and processes for deploying machine learning models in an auditable manner'
           ]
         },
 		{
