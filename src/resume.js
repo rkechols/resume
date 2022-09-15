@@ -38,9 +38,9 @@ const resume = {
     ],
   },
   summary: [
-    `Graduated December 2021 with a ${majorAndMinors}`,
+    'Machine Learning  Engineer specializing in Natural Language Processing (NLP) and Deep Learning',
+	`Graduated December 2021 with a ${majorAndMinors}`,
     `${currentYear - startedProgrammingYear} years of programming experience`,
-	'Data Scientist specializing in Natural Language Processing (NLP) and Deep Learning',
   ],
   sections: [
 	{
@@ -48,10 +48,10 @@ const resume = {
       subsections: [
         {
           details: [
-			'Computer Science: Python, Java, C++, Git, Command-line, PyTorch, SQL, Docker, AWS, Kotlin, Android, Firebase',
-            'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
+			'Computer Programming: Python, Java, C++, Git, Command-line, PyTorch, SQL, Docker, AWS, Terraform',
+            'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations, Statistics',
+			'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
 			'Novice Foreign Languages: Spanish, German, Russian',
-			'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations, Statistics'
           ]
         }
       ]
@@ -66,7 +66,7 @@ const resume = {
             majorAndMinors,
             `GPA: ${gpa}`,
             'Completed Coursework: Deep Learning, NLP, NLP for low-resource languages, Intro to Computational Theory, Advanced Programming Concepts, Algorithm Design and Optimization, Data Structures, Morphology, Syntax, Semantics, Phonetics and Phonology, Historical Linguistics, Principles of Statistics, Ordinary Differential Equations, Linear Algebra, Calculus',
-            'Extracurricular: BYU Competitive Programming team, Association for Computing Machinery, BYU Student Association, Celtic Folk Ensemble, Country Dance Club'
+            'Extracurricular: BYU Competitive Programming team, Association for Computing Machinery, BYU Student Association'
           ]
         }
       ]
@@ -76,11 +76,13 @@ const resume = {
       subsections: [
 	    {
           title: 'Data Scientist',
-          subtitle: 'Aktify - September 2021 to present',
+          subtitle: 'Aktify - September 2021 to September 2022',
           details: [
-			'Research and test accuracy of various machine learning models',
-			'Ensure selected solutions are feasible considering model size, quantity of training data needed, etc.',
-			'Establish pipelines and processes for deploying machine learning models in an auditable manner'
+			'Established pipelines for training and deploying machine learning models in an automated and auditable manner',
+			'Designed and provisioned AWS infrastructure for managing and serving 300+ models with high availability',
+			'Developed custom UI for label collection and verification',
+			'Planned and led restructuring of code repositories to reduce code duplication and better enable CI/CD',
+			'Managed organization of data science team\'s task-tickets in ClickUp (project management software)'
           ]
         },
 		{
@@ -101,7 +103,7 @@ const resume = {
           ]
         },
 		{
-          title: 'Teaching Assistant - Advanced Deep Learning, Discrete Structure, Data Structures, Intro to Computer Programming',
+          title: 'Teaching Assistant - Advanced Deep Learning, Discrete Structure, etc.',
           subtitle: 'BYU Department of Computer Science - September 2015 to April 2021',
           details: [
             'Taught principles of coding and computation to students of various skill levels',
@@ -126,7 +128,8 @@ const resume = {
 			'Developed systems for large-scale linguistic analyses of historical documents using Python',
           ]
         },
-        {
+        /*
+		{
           title: 'Android Development Intern',
 		  subtitle: <a href="https://factory.hr/" target="_blank" rel="noopener noreferrer">{'Plava tvornica ("Blue Factory") - Osijek, Croatia - May 2019 to July 2019'}</a>,
           details: [
@@ -134,6 +137,7 @@ const resume = {
             'Adapted mobile applications to be displayed in 3+ languages each',
           ]
         },
+		*/
 		{
           title: 'Research Assistant - Mathematics',
           subtitle: 'BYU Department of Mathematics - February 2015 to April 2016',
@@ -184,10 +188,10 @@ const resume = {
       subsections: [
         {
           title: 'Tutor - Mathematics and Computer Science',
-		  subtitle: 'Freelance - August 2018 to present',
+		  subtitle: 'Freelance - August 2018 to December 2021',
           details: [
-            'Give 1-3 hours per week helping fellow students that need more focused, personalized instruction',
-			'Teach a range of topics including statistics, calculus, Android development, data structures, algorithms'
+            'Gave 1-3 hours per week helping fellow students that need more focused, personalized instruction',
+			'Taught a range of topics including statistics, calculus, Android development, data structures, algorithms'
           ]
         },
 		{
