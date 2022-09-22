@@ -78,8 +78,9 @@ const resume = {
           title: 'Data Scientist',
           subtitle: 'Aktify - September 2021 to September 2022',
           details: [
-			'Established pipelines for training and deploying machine learning models in an automated and auditable manner',
+			'Established pipelines for training and deploying various machine learning models in an automated and auditable manner',
 			'Designed and provisioned AWS infrastructure for managing and serving 300+ models with high availability',
+			'Implemented text embedding store and vector search index, including ingress pipeline and search UI',
 			'Developed custom UI for label collection and verification',
 			'Planned and led restructuring of code repositories to reduce code duplication and better enable CI/CD',
 			'Managed organization of data science team\'s task-tickets in ClickUp (project management software)'
@@ -90,7 +91,7 @@ const resume = {
           subtitle: 'Codazen - May 2021 to August 2021',
           details: [
 			'Researched, summarized, and reported on data-based solutions to unsolved problems',
-            'Designed, implemented, and trained custom deep learning models using PyTorch',
+            'Designed and implemented custom deep learning models using PyTorch, including complex training algorithms for semi-supervised learning, similar to GANs and SimCLR',
 			'Deployed APIs and web apps using Dash, Flask, Docker, and AWS',
           ]
         },
@@ -102,22 +103,22 @@ const resume = {
             'Investigated and developed algorithms for Computational Jigsaw Puzzle Solving using Python',
           ]
         },
+		/*
 		{
           title: 'Teaching Assistant - Advanced Deep Learning, Discrete Structure, etc.',
           subtitle: 'BYU Department of Computer Science - September 2015 to April 2021',
           details: [
-            'Taught principles of coding and computation to students of various skill levels',
             'Guided students to develop good coding practices and debugging skills'
           ]
         },
+		*/
 		{
-          title: 'Head Teaching Assistant - Discrete Structure',
-          subtitle: 'BYU Department of Computer Science - May 2020 to December 2020',
+          title: 'Teaching Assistant & Head Teaching Assistant - Advanced Deep Learning, Discrete Structure, etc.',
+          subtitle: 'BYU Department of Computer Science - September 2015 to April 2021',
           details: [
-			'Trained 10 to 15 other teaching assistants how to effectively help students whether in-person or through digital communication',
-			'Developed procedures to ensure privacy and consistency in interactions between students and teaching assistants',
-			'Created an automated interface for students to submit coding projects, allowing 100+ teaching assistant work hours each pay period of rote tasks to be reallocated to helping students',
-			'Coordinated grading for 300+ students\' exams and homework assignments'
+			'Created an automated web interface for students to submit coding projects, allowing 100+ teaching assistant work hours each pay period of rote tasks to be reallocated to helping students',
+			'Trained 10 to 15 other teaching assistants how to effectively help students, and ensure privacy and consistency in interactions between students and teaching assistants',
+            'Taught principles of coding, computation, and debugging to students of various skill levels'
           ]
         },
 		{
@@ -142,8 +143,8 @@ const resume = {
           title: 'Research Assistant - Mathematics',
           subtitle: 'BYU Department of Mathematics - February 2015 to April 2016',
           details: [
-            'Converted mathematical algorithms from theory to Python code',
-            'Extracted and processed data for analysis and visualization to be presented weekly',
+            'Converted mathematical tree decomposition algorithms from theory to Python code',
+            'Extracted and processed data for analysis and visualization to be presented weekly'
           ]
         },
       ]
