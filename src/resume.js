@@ -64,7 +64,7 @@ const resume = {
           subtitle: 'Solo - September 2022 to present',
           details: [
 			'Introduce and implement MLOps processes, reducing manual processes and improving auditability',
-			'Lead the development of new ML models for image processing, from inception to live deployment',
+			'Lead the development of new ML models for image analysis, from inception to live deployment',
 			'Refactor burdensome "monolith" service into agile event-driven microservice architecture',
 			'Establish use of a company private Python package index, reducing code duplication across 10+ repositories',
           ]
