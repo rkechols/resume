@@ -51,7 +51,7 @@ const resume = {
 			'Computer Programming: Python, Git, Docker, PyTorch, SQL, functional programming, AWS, GCP, Terraform, Java, C++',
             'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations, Statistics',
 			'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
-			'Novice Foreign Languages: Spanish, German, Russian',
+			'Novice Foreign Languages: Spanish, German, Italian, Russian',
           ]
         }
       ]
@@ -60,17 +60,19 @@ const resume = {
       title: 'Experience',
       subsections: [
 		{
-          title: 'Software Developer - Python',
+          title: 'Python Developer (Tech Lead)',
           subtitle: 'Solo - September 2022 to present',
           details: [
+			'Implement computer vision algorithms to automate analysis of 2D and 3D imagery',
+			'Lead the development of ML models for image analysis, from inception to live deployment',
 			'Introduce and implement MLOps processes, reducing manual processes and improving auditability',
-			'Lead the development of new ML models for image analysis, from inception to live deployment',
-			'Refactor burdensome "monolith" service into agile event-driven microservice architecture',
-			'Establish use of a company private Python package index, reducing code duplication across 10+ repositories',
+			'Redesign unwieldy monolithic backend process into modular event-driven architecture',
+			'Establish use of a private Python package index, reducing code duplication across 10+ repositories',
+			'Act as team representative with technical know-how for interactions with stakeholders and other teams',
           ]
         },
 	    {
-          title: 'Data Scientist',
+          title: 'Data Scientist - Natural Language Processing (NLP)',
           subtitle: 'Aktify - September 2021 to September 2022',
           details: [
 			'Established pipelines for training and deploying various machine learning models in an automated and auditable manner',
