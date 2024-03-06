@@ -7,7 +7,7 @@ const linkedInURL = 'ryan-echols-750'
 const bitbucketUsername = 'echols14'
 const majorAndMinors = 'BA in Linguistics, minors in Computer Science and Mathematics'
 const gpa = '3.73'
-const currentYear = 2023
+const currentYear = 2024
 const startedProgrammingYear = 2013
 
 // JSX is supported in most places in this template in place of strings
@@ -38,7 +38,7 @@ const resume = {
     ],
   },
   summary: [
-    'Machine Learning Engineer specializing in Natural Language Processing (NLP) and Deep Learning',
+    'Machine Learning (ML) Engineer specializing in Natural Language Processing (NLP) and Deep Learning',
 	`Graduated December 2021 with a ${majorAndMinors}`,
     `${currentYear - startedProgrammingYear} years of programming experience`,
   ],
@@ -60,23 +60,31 @@ const resume = {
       title: 'Experience',
       subsections: [
 		{
-          title: 'Python Developer (Tech Lead)',
-          subtitle: 'Solo - September 2022 to present',
+          title: 'Machine Learning Engineer',
+          subtitle: 'Qualiti - December 2023 to present',
           details: [
-			'Implement computer vision algorithms to automate analysis of 2D and 3D imagery',
-			'Lead the development of ML models for image analysis, from inception to live deployment',
-			'Introduce and implement MLOps processes, reducing manual processes and improving auditability',
-			'Redesign unwieldy monolithic backend process into modular event-driven architecture',
-			'Establish use of a private Python package index, reducing code duplication across 10+ repositories',
-			'Act as team representative with technical know-how for interactions with stakeholders and other teams',
+			'Develop asynchronous pipelines that leverage multi-modal LLMs for test-suite generation',
+			'Evaluate and implement traditional ML techniques for textual similarity and clustering',
+          ]
+        },
+		{
+          title: 'Python Developer (Tech Lead)',
+          subtitle: 'Solo - September 2022 to December 2023',
+          details: [
+			'Implemented computer vision algorithms to automate analysis of 2D and 3D imagery',
+			'Led the development of ML models for image analysis, from inception to live deployment',
+			'Introduced and implemented MLOps processes, reducing manual processes and improving auditability',
+			'Redesigned unwieldy monolithic backend process into modular event-driven architecture',
+			'Established use of a private Python package index, reducing code duplication across 10+ repositories',
+			'Acted as team representative with technical know-how for interactions with stakeholders and other teams',
           ]
         },
 	    {
           title: 'Data Scientist - Natural Language Processing (NLP)',
           subtitle: 'Aktify - September 2021 to September 2022',
           details: [
-			'Established pipelines for training and deploying various machine learning models in an automated and auditable manner',
-			'Designed and provisioned AWS infrastructure for managing and serving 300+ models with high availability',
+			'Established pipelines for training and deploying various ML models in an automated and auditable manner',
+			'Designed and provisioned AWS infrastructure for managing and serving 300+ ML models with high availability',
 			'Implemented text embedding store and vector search index, including ingress pipeline and search UI',
 			//'Developed custom UI for label collection and verification',
 			//'Planned and led restructuring of code repositories to reduce code duplication and better enable CI/CD',
@@ -100,15 +108,6 @@ const resume = {
             'Investigated and developed algorithms for Computational Jigsaw Puzzle Solving using Python',
           ]
         },
-		/*
-		{
-          title: 'Teaching Assistant - Advanced Deep Learning, Discrete Structure, etc.',
-          subtitle: 'BYU Department of Computer Science - September 2015 to April 2021',
-          details: [
-            'Guided students to develop good coding practices and debugging skills'
-          ]
-        },
-		*/
 		{
           title: 'Teaching Assistant & Head Teaching Assistant - Advanced Deep Learning, Discrete Structure, etc.',
           subtitle: 'BYU Department of Computer Science - September 2015 to April 2021',
@@ -126,7 +125,6 @@ const resume = {
 			'Developed systems for large-scale linguistic analyses of historical documents using Python',
           ]
         },
-        /*
 		{
           title: 'Android Development Intern',
 		  subtitle: <a href="https://factory.hr/" target="_blank" rel="noopener noreferrer">{'Plava tvornica ("Blue Factory") - Osijek, Croatia - May 2019 to July 2019'}</a>,
@@ -135,7 +133,6 @@ const resume = {
             'Adapted mobile applications to be displayed in 3+ languages each',
           ]
         },
-		*/
 		{
           title: 'Research Assistant - Mathematics',
           subtitle: 'BYU Department of Mathematics - February 2015 to April 2016',
