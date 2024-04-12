@@ -7,7 +7,7 @@ const linkedInURL = 'ryan-echols-750'
 const bitbucketUsername = 'echols14'
 const majorAndMinors = 'BA in Linguistics, minors in Computer Science and Mathematics'
 const gpa = '3.73'
-const currentYear = 2024
+const currentYear = new Date().getFullYear()
 const startedProgrammingYear = 2013
 
 // JSX is supported in most places in this template in place of strings
