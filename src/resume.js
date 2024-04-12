@@ -48,7 +48,7 @@ const resume = {
       subsections: [
         {
           details: [
-			'Computer Programming: Python, Git, Docker, PyTorch, SQL, functional programming, AWS, GCP, Terraform, Java, C++',
+			'Computer Programming: Python, Git, Docker, PyTorch, LangChain, SQL, AWS, GCP, Terraform, Java, C++',
             'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations, Statistics',
 			'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
 			'Novice Foreign Languages: Spanish, German, Italian, Russian',
