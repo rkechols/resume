@@ -151,7 +151,7 @@ const resume = {
           subtitle: 'Graduated December 2021',
           details: [
             majorAndMinors,
-            `GPA: ${gpa}`,
+            //`GPA: ${gpa}`,
             'Completed Coursework: Advanced Deep Learning, NLP, NLP for low-resource languages, Intro to Computational Theory, Algorithm Design and Optimization, Data Structures, Historical Linguistics, Phonetics and Phonology, Morphology, Syntax, Semantics, Principles of Statistics, Ordinary Differential Equations, Linear Algebra, Calculus',
             'Extracurricular: BYU Competitive Programming team, Association for Computing Machinery, BYU Student Association',
           ]
