@@ -38,7 +38,7 @@ const resume = {
     ],
   },
   summary: [
-    'Machine Learning (ML) Engineer specializing in Natural Language Processing (NLP) and Deep Learning',
+    'AI and Machine Learning (ML) Engineer specializing in Agentic AI, Deep Learning, and Natural Language Processing (NLP)',
 	`Graduated December 2021 with a ${majorAndMinors}`,
     `${currentYear - startedProgrammingYear} years of programming experience`,
   ],
@@ -48,10 +48,10 @@ const resume = {
       subsections: [
         {
           details: [
-			'Computer Programming: Python, Git, Docker, PyTorch, LangChain, SQL, AWS, GCP, Terraform, Java, C++',
+			'Computer Programming: Python, Git, Bash, Docker, PyTorch, LangChain, SQL, AWS, GCP, Terraform, Kotlin, Java, C++, Rust',
             'Advanced Mathematics: Linear Algebra, Multivariable Calculus, Ordinary Differential Equations, Statistics',
 			'Advanced Foreign Languages: Serbian, Bosnian, Croatian, Slovene',
-			'Novice Foreign Languages: Spanish, German, Italian, Russian',
+			'Novice Foreign Languages: Spanish, German, Italian, Portuguese, Russian',
           ]
         }
       ]
@@ -60,11 +60,13 @@ const resume = {
       title: 'Experience',
       subsections: [
 		{
-          title: 'Machine Learning Engineer',
+          title: 'Senior Machine Learning Engineer',
           subtitle: 'Qualiti - December 2023 to present',
           details: [
+      'Establish best practices for using Agentic AI in production environments',
 			'Develop asynchronous pipelines that leverage multi-modal LLMs for test-suite generation',
-			'Evaluate and implement traditional ML techniques for textual similarity and clustering',
+      'Contribute to Technical Design of System Architecture and core application features',
+			'Evaluated and implemented traditional ML techniques for textual similarity and clustering',
           ]
         },
 		{
@@ -129,7 +131,7 @@ const resume = {
           title: 'Android Development Intern',
 		  subtitle: <a href="https://factory.hr/" target="_blank" rel="noopener noreferrer">{'Plava tvornica ("Blue Factory") - Osijek, Croatia - May 2019 to July 2019'}</a>,
           details: [
-            'Created 5 functioning mobile applications for Android while self-directed, using both Java and Kotlin',
+            'Created 5 mobile applications for Android while self-directed, using both Java and Kotlin',
             'Adapted mobile applications to be displayed in 3+ languages each',
           ]
         },
@@ -218,7 +220,7 @@ const resume = {
           subtitle: 'The Church of Jesus Christ of Latter-day Saints in Serbia, Slovenia, Bosnia & Herzegovina - August 2016 to August 2018',
           details: [
             'Served as an administrative clerk over church records in 5 countries',
-			'Supervised 3 of the church’s official Facebook pages',
+			'Supervised 3 of the church\'s official Facebook pages',
 			'Written and spoken translation and interpretation in Serbian, Bosnian, Croatian, and Slovene',
           ]
         }
